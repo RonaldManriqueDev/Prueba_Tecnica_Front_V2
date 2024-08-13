@@ -1,0 +1,54 @@
+:root {
+    --gender-chart-color-male: #36A2EB;
+    --gender-chart-color-female: #FF6384;
+    --age-chart-color: #FFCE56;
+    --registration-chart-color: #4BC0C0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.btn-primary {
+    margin: 0 10px;
+}
+
+#genderChartContainer,
+#ageHistogramContainer,
+#countryListContainer,
+#registrationYearChartContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+
+canvas {
+    max-width: 100%;
+    height: 300px; 
+    margin-bottom: 20px;
+}
+
+#countryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+.mb-4 {
+    margin-bottom: 30px; 
+}
